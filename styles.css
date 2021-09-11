@@ -1,0 +1,52 @@
+/* body {
+  background: black;
+  color: wheat;
+} */
+.lesson-item {
+  color: green;
+}
+
+.dark {
+  background-color: indigo;
+  color: cornsilk;
+}
+
+.timer {
+  background-color: black;
+  text-align: center;
+  color: rgb(182, 159, 33);
+  font-size: 24px;
+}
+
+.timer__numbers {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.timer__item {
+  margin-right: 15px;
+  border: 2px solid rgb(182, 159, 33);
+  padding: 0px 20px;
+}
+
+.timer__buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.timer__button {
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  width: 100px;
+  padding: 5px;
+  font-size: 15px;
+  background-color: honeydew;
+  border: 1px solid rgb(182, 159, 33);
+  margin-bottom: 20px;
+}
+
+.timer__button--start {
+  margin-right: 10px;
+}
